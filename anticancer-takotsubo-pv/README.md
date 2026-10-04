@@ -40,6 +40,7 @@ python 02_prepare_faers.py        # retained reports, deleted cases, reporter co
 python 03_build_cases.py          # harmonised case-level tables, secondary deduplication
 python 04_disproportionality.py   # RORs: classes, drugs, sensitivity analyses, regimens, combinations
 python 05_clinical_profile.py     # clinical profiles, time to onset, severity, regression, exploratory analyses
+python 06_triggers.py             # co-reported potential triggers of Takotsubo syndrome (exploratory)
 ```
 
 Result tables are written to `results/`.
@@ -71,6 +72,7 @@ Result tables are written to `results/`.
 | `table_sensitivity_profiles.csv` | Single-class-only and catecholamine-free profiles |
 | `table_cancer_type.csv`, `table_history_jader.csv` | Cancer type; medical history (JADER only) |
 | `table_logistic_death_*.csv` | Logistic regression for death |
+| `table_triggers_anticancer_vs_other.csv`, `table_triggers_by_class_faers.csv` | Co-reported potential triggers (exploratory) |
 | `table_ici_myocarditis.csv`, `table_annual_trend.csv`, `table_5fu_cardiac_pts_jader.csv` | Exploratory analyses |
 
 ## License
